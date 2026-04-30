@@ -182,7 +182,7 @@ imgui.OnFrame(function() return ini.cfg.toggled or menuOpen[0] end, function()
 
             if imgui.Button("Guardar Config", imgui.ImVec2(-1, 40)) then
                 inicfg.save(ini, iniPath)
-                sampAddChatMessage("{00FF00}[HUD]: {FFFFFF}Configuración guardada correctamente.", -1)
+                sampAddChatMessage("{00FF00}[DisplayPing]: {FFFFFF}Configuracion guardada correctamente.", -1)
             end
         elseif tab[0] == 2 then
             imgui.Text("Informacion")
